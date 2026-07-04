@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "date": "2026-07-04",
+    "articles": [
+      {
+        "title": "2026 Unslop AI-Written Fiction Contest Results",
+        "url": "https://www.hyperstitionai.com/unslop-results",
+        "hn_url": "https://news.ycombinator.com/item?id=48782890",
+        "summary": "一場要求參賽者用AI生成5000-10000字短篇小說、且不能人工編輯的競賽公布結果,得獎作品之一《The June》引發熱議。HN討論中,讀者認為許多作品充滿陳腔濫調與空洞隱喻,質疑比賽本質上測試的是「提示工程」而非真正的文學創作。",
+        "reason": "直接點出AI生成內容當前最大的品質爭議——看似流暢卻缺乏真正的創作意圖,值得關心AI寫作極限的人一讀。"
+      },
+      {
+        "title": "Claude's Criminally Bad Electron Mac App Is an Inside Job",
+        "url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
+        "hn_url": "https://news.ycombinator.com/item?id=48781434",
+        "summary": "知名科技評論者John Gruber批評Anthropic的Claude桌面版採用Electron框架、而非原生macOS開發,導致效能緩慢、體驗臃腫。文章指出關鍵原因是Electron共同創辦人Felix Rieseberg目前正好領導Claude桌面團隊,這是內部工程偏好、而非技術必然的結果。",
+        "reason": "揭露一線AI公司在自家旗艦App體驗上的取捨盲點,對比「用Claude Code就能做出優質原生App」的諷刺相當犀利。"
+      },
+      {
+        "title": "Jersey Mike's IPO illustrates how bad the AI hype is",
+        "url": "https://finance.yahoo.com/technology/ai/articles/jersey-mike-ipo-illustrates-bad-201159743.html",
+        "hn_url": "https://news.ycombinator.com/item?id=48784339",
+        "summary": "三明治連鎖速食品牌Jersey Mike's在IPO招股書中提到「AI」多達22次,遠超過提及「天氣」的5次,儘管公司業務與AI毫無關聯。文章以此為例,說明當前市場對AI的過度追捧,已讓傳統企業被迫在公開文件中硬塞AI字眼以討好投資人。",
+        "reason": "用一個荒謬卻真實的案例,具體呈現AI炒作已滲透到與科技完全無關的產業,是觀察AI泡沫程度的絕佳指標。"
+      }
+    ]
+  }
+]
