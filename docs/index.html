@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Daily Digest — 每日 AI 新聞摘要</title>
+<style>
+  :root {
+    color-scheme: light dark;
+  }
+  body {
+    font-family: -apple-system, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px 16px 80px;
+    line-height: 1.6;
+    background: #fafafa;
+    color: #1a1a1a;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    color: #666;
+    margin-bottom: 32px;
+    font-size: 0.95rem;
+  }
+  .day {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .day h2 {
+    font-size: 1.05rem;
+    color: #444;
+    margin-top: 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+  }
+  .article {
+    margin-bottom: 16px;
+  }
+  .article:last-child { margin-bottom: 0; }
+  .article a {
+    font-weight: 600;
+    color: #1a5cff;
+    text-decoration: none;
+  }
+  .article a:hover { text-decoration: underline; }
+  .summary { margin: 6px 0; color: #333; }
+  .reason {
+    font-size: 0.9rem;
+    color: #b8860b;
+  }
+  #empty { color: #999; text-align: center; margin-top: 60px; }
+</style>
+</head>
+<body>
+  <h1>🤖 AI Daily Digest</h1>
+  <div class="subtitle">每日 18:00 自動整理的 Hacker News AI 熱門文章摘要</div>
+  <div id="content"></div>
+  <div id="empty" style="display:none">目前還沒有摘要記錄,明天 18:00 見 👋</div>
+
+  <script>
+    fetch('data.json')
+      .then(r => r.json())
+      .then(days => {
+        const content = document.getElementById('content');
+        if (!days.length) {
+          document.getElementById('empty').style.display = 'block';
+          return;
+        }
+        for (const day of days) {
+          const dayEl = document.createElement('div');
+          dayEl.className = 'day';
+          const h2 = document.createElement('h2');
+          h2.textContent = day.date;
+          dayEl.appendChild(h2);
+          for (const a of day.articles) {
+            const artEl = document.createElement('div');
+            artEl.className = 'article';
+            artEl.innerHTML = `
+              <a href="${a.url}" target="_blank" rel="noopener">${a.title}</a>
+              <p class="summary">${a.summary}</p>
+              <p class="reason">💡 ${a.reason}</p>
+            `;
+            dayEl.appendChild(artEl);
+          }
+          content.appendChild(dayEl);
+        }
+      })
+      .catch(() => {
+        document.getElementById('empty').style.display = 'block';
+      });
+  </script>
+</body>
+</html>
