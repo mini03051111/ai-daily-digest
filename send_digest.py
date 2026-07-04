@@ -64,6 +64,9 @@ def get_google_creds():
     return creds
 
 
+PAGES_URL = "https://mini03051111.github.io/ai-daily-digest/"
+
+
 def build_email_body(digest):
     lines = [f"🤖 今日 AI 新聞摘要 - {digest['date']}\n"]
     for i, a in enumerate(digest["articles"], 1):
@@ -71,6 +74,7 @@ def build_email_body(digest):
         lines.append(f"   {a['summary']}")
         lines.append(f"   💡 為什麼值得看:{a['reason']}")
         lines.append(f"   連結:{a['url']}\n")
+    lines.append(f"🌐 網頁版(含歷史摘要):{PAGES_URL}")
     return "\n".join(lines)
 
 
