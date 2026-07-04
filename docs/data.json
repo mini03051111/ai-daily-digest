@@ -3,25 +3,34 @@
     "date": "2026-07-04",
     "articles": [
       {
-        "title": "2026 Unslop AI-Written Fiction Contest Results",
-        "url": "https://www.hyperstitionai.com/unslop-results",
-        "hn_url": "https://news.ycombinator.com/item?id=48782890",
-        "summary": "一場要求參賽者用AI生成5000-10000字短篇小說、且不能人工編輯的競賽公布結果,得獎作品之一《The June》引發熱議。HN討論中,讀者認為許多作品充滿陳腔濫調與空洞隱喻,質疑比賽本質上測試的是「提示工程」而非真正的文學創作。",
-        "reason": "直接點出AI生成內容當前最大的品質爭議——看似流暢卻缺乏真正的創作意圖,值得關心AI寫作極限的人一讀。"
+        "title": "OpenAI 搶先預覽 GPT-5.6 Sol、Terra、Luna 新一代模型家族",
+        "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+        "summary": "OpenAI於6月底開始限量預覽新一代模型家族GPT-5.6 Sol、Terra、Luna,旗艦模型Sol新增「max reasoning effort」模式讓模型有更長思考時間,並推出「ultra模式」讓多個子代理(subagent)平行協作處理複雜長流程任務,在Terminal-Bench 2.1測試中Sol Ultra達91.9%、優於一般Sol的88.8%。由於美國政府要求優先掌握前沿模型的資安風險,目前僅開放約20家受政府審核的合作夥伴使用,尚未公開釋出。",
+        "reason": "這是目前最強前沿模型之一首度亮相,「多子代理平行作業」與政府主導的分階段開放模式,都預示了未來高階模型上線的新常態。"
       },
       {
-        "title": "Claude's Criminally Bad Electron Mac App Is an Inside Job",
-        "url": "https://daringfireball.net/2026/07/claudes_criminally_bad_mac_app_is_an_inside_job",
-        "hn_url": "https://news.ycombinator.com/item?id=48781434",
-        "summary": "知名科技評論者John Gruber批評Anthropic的Claude桌面版採用Electron框架、而非原生macOS開發,導致效能緩慢、體驗臃腫。文章指出關鍵原因是Electron共同創辦人Felix Rieseberg目前正好領導Claude桌面團隊,這是內部工程偏好、而非技術必然的結果。",
-        "reason": "揭露一線AI公司在自家旗艦App體驗上的取捨盲點,對比「用Claude Code就能做出優質原生App」的諷刺相當犀利。"
+        "title": "Anthropic公布Claude Fable 5資安防護細節與「越獄嚴重度」產業框架",
+        "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+        "summary": "在美國解除出口管制、Fable 5恢復全球部署後,Anthropic公開其資安分類器如何依風險把使用情境分為四級(禁止使用、高風險雙重用途、低風險雙重用途、良性用途),並與Amazon、Microsoft、Google等Glasswing夥伴共同提出「網路越獄嚴重度(CJS)」0-4級評分框架,依「能力提升、影響範圍、武器化難易度、可發現性」四軸為越獄手法評分。",
+        "reason": "這是業界少見、跨公司合作制定的AI越獄風險共通量尺,對關心AI資安治理與模型開放邊界的人是重要指標。"
       },
       {
-        "title": "Jersey Mike's IPO illustrates how bad the AI hype is",
-        "url": "https://finance.yahoo.com/technology/ai/articles/jersey-mike-ipo-illustrates-bad-201159743.html",
-        "hn_url": "https://news.ycombinator.com/item?id=48784339",
-        "summary": "三明治連鎖速食品牌Jersey Mike's在IPO招股書中提到「AI」多達22次,遠超過提及「天氣」的5次,儘管公司業務與AI毫無關聯。文章以此為例,說明當前市場對AI的過度追捧,已讓傳統企業被迫在公開文件中硬塞AI字眼以討好投資人。",
-        "reason": "用一個荒謬卻真實的案例,具體呈現AI炒作已滲透到與科技完全無關的產業,是觀察AI泡沫程度的絕佳指標。"
+        "title": "微軟砸25億美元成立「Frontier Company」,派6000名工程師進駐企業導入AI",
+        "url": "https://blogs.microsoft.com/blog/2026/07/02/microsoft-frontier-company-ai-engineering-that-amplifies-and-protects-your-intelligence/",
+        "summary": "微軟宣布成立新事業單位Microsoft Frontier Company,投入25億美元、派出逾6000名產業與工程專家直接進駐客戶端,協助設計、部署與優化AI系統(即所謂前線部署工程),並強調客戶資料與專屬知識不會被拿去訓練模型、以保護企業的競爭優勢。首波合作對象包括倫敦證交所集團、聯合利華等。",
+        "reason": "反映出AI落地企業最大的瓶頸已從「有沒有模型」轉為「怎麼導入」,微軟這一步等於直接下場解決企業AI專案失敗率過高的問題。"
+      },
+      {
+        "title": "字節跳動發布Seedance 2.5,原生4K、30秒AI影片生成即將公開上線",
+        "url": "https://thenextweb.com/news/bytedance-seedance-2-5-ai-video-4k-30-seconds",
+        "summary": "字節跳動推出新一代影片生成模型Seedance 2.5,可直接生成原生4K、長達30秒的10-bit高畫質影片,無需額外放大處理,並支援最多50組參考輸入(圖片、音訊、3D模型、風格參考等),遠超前一版本的12組與Google Veo 3.1的3組,同時提供同步音訊生成與3D低畫質預覽功能。",
+        "reason": "影片生成技術正從短片特效走向可用於實際後期製作的專業工具,參考輸入數量與時長的躍進,大幅拉近AI影片與商業製片流程的距離。"
+      },
+      {
+        "title": "xAI旗下Grok 4.5進入SpaceX、特斯拉私測,規劃每月推出全新基礎模型",
+        "url": "https://www.techtimes.com/articles/319314/20260629/grok-45-enters-private-beta-spacex-tesla-no-public-access-no-independent-benchmark.htm",
+        "summary": "xAI最新模型Grok 4.5(基於1.5兆參數的第九代架構V9)開始在SpaceX與特斯拉內部私測,馬斯克宣稱其表現接近甚至超越Anthropic的Claude Opus,但目前無公開存取管道、也未提交任何第三方基準測試驗證。xAI同時公布未來規劃:2026年底前預計每月都會推出全新訓練的基礎模型。",
+        "reason": "「每月一款全新基礎模型」的節奏若成真,將大幅改寫前沿模型競賽的時間尺度,即使目前性能宣稱尚待驗證,仍值得持續關注。"
       }
     ]
   }
