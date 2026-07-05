@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-07-05",
+    "articles": [
+      {
+        "title": "Anthropic公布Claude Fable 5網路安全防護細節與跨產業「越獄嚴重度」評分框架",
+        "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+        "summary": "針對6月因資安繞過手法遭美國政府暫停部署的Claude Fable 5,Anthropic公開其防護機制細節:安全分類器將網路安全相關請求分為「禁止使用」(如勒索軟體、C2基礎設施)、「高風險雙重用途」(如滲透測試、漏洞開發)、「低風險雙重用途」與「良性使用」四個等級分層處理,而非全面封鎖。同時聯合Amazon、Microsoft、Google等業者,提出以「能力提升幅度、影響範圍、武器化難易度、可發現性」四項指標、從CJS-0(僅供參考)到CJS-4(危急)的越獄嚴重度評分標準,嚴重度採指數而非線性增長。",
+        "reason": "這是AI實驗室首次公開如此細緻的資安風險分級邏輯與可供業界共用的越獄評分標準,對關心AI安全治理與模型濫用防範機制的讀者提供了具體可參考的框架。"
+      },
+      {
+        "title": "Anthropic為Claude Enterprise新增管理分析儀表板與即時支出警示",
+        "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+        "summary": "Anthropic替Claude Enterprise方案推出更完整的管理工具:新分析儀表板可依SCIM群組、個別使用者檢視用量與成本,並顯示產出成果(如建立的artifacts、編輯的檔案數)搭配對應花費;新增「Analytics Chat」可用白話提問(如「哪些團隊這個月用量翻倍」)自動產生圖表,並提供Analytics API方便串接Datadog等既有工具。支出即將達上限時會在75%、90%提前示警,管理員也能透過Admin API批次審核用量上限調整、抓出用量異常的使用者。",
+        "reason": "隨著企業把Claude用於愈來愈複雜的agentic工作,成本與用量模式也更難掌握,這次更新對正在導入或管理企業級AI用量預算的IT/採購角色讀者相當實用。"
+      },
+      {
+        "title": "xAI推出免程式碼「語音代理建構平台」,並把語音操控整合進coding agent「Grok Build」",
+        "url": "https://x.ai/news/grok-voice-agent-builder",
+        "summary": "xAI於7月1日推出免程式碼的Voice Agent Builder測試版,開發者只需用一句話描述通話流程、掛上文件與工具,兩分鐘內就能生成可實際部署的語音客服/業務代理,內建電話系統整合、知識檢索、工具呼叫與防護機制,並附贈一支測試用電話號碼。隔天(7月2日)xAI再把同一套Grok Voice語音輸入能力整合進其程式設計代理平台Grok Build,讓使用者能用/voice指令或快捷鍵直接口述指令給coding agent,是語音功能首次以原生產品形式而非純API出現。",
+        "reason": "顯示語音互動正快速從單純的API功能滲透進日常開發與客服工作流程,對正在評估語音AI代理或coding agent工具的讀者是值得關注的實用趨勢。"
+      }
+    ]
+  },
+  {
     "date": "2026-07-04",
     "articles": [
       {
