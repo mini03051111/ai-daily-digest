@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-07-08",
+    "articles": [
+      {
+        "title": "美國商務部解除限制,OpenAI GPT-5.6系列準備擴大公開釋出",
+        "url": "https://thenextweb.com/news/openai-gpt-5-6-broad-rollout-us-approval",
+        "summary": "OpenAI旗艦模型GPT-5.6(分為Sol、Terra、Luna三個版本)先前因美國政府基於生物與資安風險疑慮,要求先限縮於約20家經政府核准的合作夥伴進行預覽測試。美國商務部AI標準與創新中心經過數週額外測試後,已於7月8日核准解除限制,OpenAI預計未來數日內擴大存取範圍,三個版本也將於未來幾週內全面開放。",
+        "reason": "這是繼Anthropic Fable 5先前遭遇出口管制事件後,美國政府對前沿AI模型「預先審查再放行」模式的第二個實例,顯示這類審查已成為美國AI大廠新模型上市的常態關卡,值得持續追蹤的產業趨勢。"
+      },
+      {
+        "title": "Google大改架構,Gemini 3.5 Pro延後至7月17日發布",
+        "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a",
+        "summary": "Google DeepMind宣布放棄現有的Gemini 2.5 Pro架構,對即將推出的Gemini 3.5 Pro從頭重新訓練,發布時間因此從原訂6月延至7月17日。新架構鎖定強化數學推理能力(新增「Deep Think推理層」)、SVG向量圖生成與圖像品質,並將情境窗口擴大至200萬token,新增可自主管理程式撰寫、工具呼叫與執行流程的代理式工作能力。",
+        "reason": "這顯示Google為了追上OpenAI GPT-5.6與Anthropic Fable 5等競品,寧可犧牲上市時程也要重新打底架構,對關注前沿模型競賽時程與技術取捨的讀者是觀察三強競爭態勢的重要指標。"
+      },
+      {
+        "title": "NVIDIA發表Vera CPU,首創「代理式AI」專用單執行緒強化處理器",
+        "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+        "summary": "NVIDIA推出全新處理器類別Vera CPU,採用自研Olympus核心,單核心效能比自家Grace CPU再提升50%,在多達88核心下仍維持1.2TB/s、低於40瓦的記憶體頻寬,核心間頻寬達3.4TB/s(為同業競品3倍)。此設計專門針對AI代理逐步推理、每一步驟仰賴前一步結果的循序運算特性,優先鎖定單核心速度而非傳統的高核心數吞吐量,實測在滿載代理工作負載下比x86處理器有1.8倍的持續效能提升。",
+        "reason": "過去業界關注焦點多集中在GPU,這次NVIDIA點出「CPU才是代理式AI效能瓶頸」的盲點,對正在評估AI代理基礎設施建置成本與效能的工程與採購角色讀者提供了新的思考角度。"
+      },
+      {
+        "title": "Mistral推出Robostral Navigate,80億參數模型僅靠單一相機就能導航機器人",
+        "url": "https://mistral.ai/news/robostral-navigate",
+        "summary": "Mistral發布專攻機器人自主導航的80億參數模型Robostral Navigate,僅需一支RGB相機、不需深度感測器或光達,便能讓機器人依自然語言指令穿越複雜環境。模型採用「指向式導航」讓機器人直接預測相機畫面中的目標座標,並以約40萬條模擬軌跡訓練,在R2R-CE導航基準上達76.6%成功率,勝過同樣單相機的方案9.7個百分點,甚至優於配備多重感測器的競品4.5個百分點,可通用於輪式、腿式與飛行機器人。",
+        "reason": "這顯示機器人導航的技術瓶頸正從「堆疊感測器」轉向「單一視覺輸入+語言模型」的低成本路線,對關注具身智慧(embodied AI)與機器人硬體成本的讀者是重要的技術風向指標。"
+      }
+    ]
+  },
+  {
     "date": "2026-07-06",
     "articles": [
       {
