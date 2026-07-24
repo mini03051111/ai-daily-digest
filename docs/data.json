@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-07-24",
+    "articles": [
+      {
+        "title": "Google發布Gemini 3.6 Flash家族三款新模型,暫緩3.5 Pro上市",
+        "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+        "summary": "Google DeepMind於7月21日一口氣推出三款新模型:主打程式撰寫與知識工作的「工作馬」Gemini 3.6 Flash(token用量最多可省17%,較前代3.5 Flash更省成本)、定位最經濟實惠的3.5 Flash-Lite,以及專門用於偵測與修補資安漏洞、目前僅限政府與特定合作夥伴以有限試點方式使用的3.5 Flash Cyber。然而外界高度期待的旗艦機型Gemini 3.5 Pro並未如期發布,Google表示仍在與合作夥伴測試中。",
+        "reason": "這顯示Google選擇先以效率導向的中階模型應戰,同時罕見公開旗艦模型延後上市的內部進度,對關注Google能否追上OpenAI、Anthropic前沿模型競賽節奏的讀者是重要觀察指標。"
+      },
+      {
+        "title": "OpenAI推出企業級AI代理平台「Presence」,已用於自家客服電話",
+        "url": "https://mpost.io/openai-debuts-presence-an-enterprise-platform-for-mission-critical-ai-agents/",
+        "summary": "OpenAI於7月23日發表Presence,這是一套讓企業部署「關鍵任務級」AI代理的完整管理平台,結合模型推理能力與企業自訂的政策、防護規則與人工升級機制,鎖定客服、理賠、IT支援等明確定義的任務場景,並提供權限控管(代理只能存取任務所需的系統與知識庫)以及依實際使用狀況持續優化代理表現的分析機制。OpenAI透露該平台已用於自家客服專線,能自主處理約75%來電並維持人工水準的服務品質。",
+        "reason": "這代表OpenAI企業策略從「賣模型」轉向「賣可控管、可問責的完整代理系統」,對評估導入AI客服或內部代理、同時擔心失控風險的企業決策者具體展示了落地可能性。"
+      },
+      {
+        "title": "Anthropic推出Claude Security測試版,用AI多代理系統揪程式碼漏洞",
+        "url": "https://cybersecuritynews.com/anthropic-claude-security-plugin/",
+        "summary": "Anthropic於7月23日發布Claude Security外掛程式測試版,直接整合進Claude Code,讓開發者能在終端機掃描未提交的變更或整個程式碼庫。不同於傳統的規則比對工具,它採用具研究員水準推理能力的多代理系統,會追蹤Git歷史、跨檔案分析資料流並理解商業邏輯,藉此抓出記憶體損毀、注入攻擊、身分驗證繞過等複雜漏洞,並在提出修補建議前先自行驗證以降低誤報,所有修正都需人工審核、不會自動提交。",
+        "reason": "這是AI輔助資安檢測從「找出表面漏洞」進化到「理解程式邏輯脈絡」的具體案例,對負責程式碼安全把關的開發與資安團隊讀者相當實用。"
+      },
+      {
+        "title": "Claude Cowork新增「錄製技能」功能,用螢幕錄影教AI學會你的工作流程",
+        "url": "https://www.androidauthority.com/claude-cowork-record-skills-feature-3689919/",
+        "summary": "Anthropic於7月21日在Claude Cowork中推出「Record a skill(錄製技能)」功能,使用者只需錄下螢幕操作過程並同步口頭講解步驟,Claude便會將這段示範轉換成可重複執行的結構化技能,存入技能庫後日後可直接呼叫,不必再手動撰寫指令或腳本。目前此功能限Pro、Max與Team方案用戶使用,可在桌面版應用程式「+」選單中啟用。",
+        "reason": "這讓不擅長寫prompt或腳本的一般使用者,也能用「示範一次」的方式讓AI學會重複性工作,對想讓AI代理落地日常辦公流程、但不熟悉技術指令撰寫的讀者是相當親民的新入門方式。"
+      },
+      {
+        "title": "微軟攜手Mistral擴大策略合作,歐洲主權雲導入Medium 3.5與OCR 4模型",
+        "url": "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control/",
+        "summary": "微軟於7月21日宣布與Mistral擴大策略合作,將投入數十億美元擴充Mistral在歐洲的AI運算量能,部署數千顆NVIDIA Vera Rubin GPU以支援訓練與大規模推論;同時Mistral Medium 3.5與文件處理專用的OCR 4模型正式登陸微軟Foundry與Copilot Studio,企業可依需求選擇雲端託管、雲端連接自控,或完全離線獨立運作三種部署方式。",
+        "reason": "這項合作讓金融、醫療、製造等受高度監管產業能在符合資料主權要求的前提下用上前沿AI模型,對關注歐洲AI主權雲趨勢與企業合規部署選項的讀者提供了具體可行的路徑。"
+      }
+    ]
+  },
+  {
     "date": "2026-07-17",
     "articles": [
       {
