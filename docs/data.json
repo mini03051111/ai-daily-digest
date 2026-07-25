@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-07-25",
+    "articles": [
+      {
+        "title": "Anthropic推出Claude Opus 5,以半價逼近旗艦Fable 5效能",
+        "url": "https://www.anthropic.com/news/claude-opus-5",
+        "summary": "Anthropic於7月24日發布Claude Opus 5,定價維持與前代Opus 4.8相同(每百萬輸入token 5美元、輸出25美元),但效能已逼近該公司最強模型Fable 5,在程式撰寫評測Frontier-Bench、GDPval-AA上取得業界最佳成績,ARC-AGI 3新奇問題解決能力更是對手的三倍,同時新增可讓使用者自行調整運算資源與成本的「強度旋鈕」。此模型已成為Claude Max預設模型、Claude Pro最強選項,並同步開放於API、Claude.ai、Claude Code與Claude Cowork。",
+        "reason": "以更低成本取得接近旗艦等級的推理與程式能力,對需要大量呼叫API卻在意成本的開發者與企業是實用的效能/價格新選擇。"
+      },
+      {
+        "title": "OpenAI將語音模式帶進ChatGPT桌面版,可用聲音指揮Work與Codex代理",
+        "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+        "summary": "OpenAI於7月24日宣布ChatGPT Voice正式登陸macOS與Windows桌面應用程式,由新推出的GPT-Live語音模型驅動,能同時進行說話、聆聽與任務協調。使用者可用語音下達包含多個步驟的複雜指令,同步指揮ChatGPT Work與Codex中執行的多個代理,並具備瀏覽網頁、操作應用程式等「電腦操作」能力;在macOS上還可透過Appshots功能讓ChatGPT直接讀取當下視窗畫面內容作為對話脈絡。",
+        "reason": "這讓語音助理從單純對話升級為可實際操作電腦、派工給多個AI代理的工作介面,對想用免打字方式處理程式或文書工作的讀者是值得關注的新工作模式。"
+      },
+      {
+        "title": "NVIDIA攜手韓國KAIST成立3億美元AI聯合實驗室",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-and-kaist-launch-joint-ai-research-lab-to-accelerate-ai-innovation-in-korea",
+        "summary": "NVIDIA於7月23日宣布與韓國科學技術院(KAIST)在其AI研究所成立聯合實驗室,為期五年、總投入3億美元,其中NVIDIA每年提供約5000萬美元的運算資源。實驗室將運用NVIDIA Nemotron開源模型,聚焦開發針對韓語與韓國產業需求優化的代理型AI(agentic AI),並計畫每年資助至少10名KAIST研究人員、提供實習與全職職缺,打造從學術研究到企業與國家級AI部署的完整銜接管道。",
+        "reason": "這是NVIDIA少見以大規模長期投資與頂尖學術機構共建在地化AI研發能量的案例,對關注AI晶片大廠如何從賣硬體延伸至掌握地緣AI生態系的讀者提供了具體參考案例。"
+      },
+      {
+        "title": "Claude Code更新修復長對話卡頓問題,/code-review改為背景執行",
+        "url": "https://releasebot.io/updates/anthropic/claude-code",
+        "summary": "Anthropic於7月22日發布Claude Code 2.1.218更新,修復了長時間對話中訊息正規化耗時隨對話輪數呈平方成長、導致多次停頓與恢復緩慢的效能問題;同時將`/code-review`指令改為以背景子代理方式執行,審查工作不再佔用主對話視窗,並加入螢幕報讀器對刪除文字的語音提示等無障礙改善。",
+        "reason": "解決了重度使用者在長時間auto模式對話中最有感的卡頓痛點,對每天大量使用Claude Code進行長時間開發工作的讀者直接改善使用體驗。"
+      }
+    ]
+  },
+  {
     "date": "2026-07-24",
     "articles": [
       {
