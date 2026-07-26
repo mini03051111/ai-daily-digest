@@ -157,11 +157,33 @@
           for (const a of day.articles) {
             const artEl = document.createElement('div');
             artEl.className = 'article';
-            artEl.innerHTML = `
-              <p class="article-title"><span class="label">標題：</span><a href="${a.url}" target="_blank" rel="noopener">${a.title}</a></p>
-              <p class="summary"><span class="label">摘要：</span>${a.summary}</p>
-              <p class="reason">💡 ${a.reason}</p>
-            `;
+
+            const titleP = document.createElement('p');
+            titleP.className = 'article-title';
+            const titleLabel = document.createElement('span');
+            titleLabel.className = 'label';
+            titleLabel.textContent = '標題：';
+            const link = document.createElement('a');
+            link.textContent = a.title;
+            link.target = '_blank';
+            link.rel = 'noopener';
+            if (/^https?:\/\//i.test(a.url)) {
+              link.href = a.url;
+            }
+            titleP.append(titleLabel, link);
+
+            const summaryP = document.createElement('p');
+            summaryP.className = 'summary';
+            const summaryLabel = document.createElement('span');
+            summaryLabel.className = 'label';
+            summaryLabel.textContent = '摘要：';
+            summaryP.append(summaryLabel, document.createTextNode(a.summary));
+
+            const reasonP = document.createElement('p');
+            reasonP.className = 'reason';
+            reasonP.textContent = `💡 ${a.reason}`;
+
+            artEl.append(titleP, summaryP, reasonP);
             dayEl.appendChild(artEl);
           }
           content.appendChild(dayEl);
