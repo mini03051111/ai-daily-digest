@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-27",
+    "articles": [
+      {
+        "title": "Moonshot AI釋出Kimi K3完整開源權重,2.8兆參數創下開源模型規模新紀錄",
+        "url": "https://www.kimi.com/blog/kimi-k3",
+        "summary": "Moonshot AI於7月27日正式釋出Kimi K3完整模型權重,這是一款採混合專家(MoE)架構、總參數達2.8兆(單次推論僅動用約500億活躍參數)的開源模型,支援100萬token情境窗口與原生多模態能力,並採用Kimi Delta Attention等新型注意力機制加速長文本處理。整組權重檔案達1.4TB(以MXFP4四位元量化格式釋出),整體效能雖仍落後Claude Fable 5與GPT-5.6 Sol等頂尖封閉模型,但在程式撰寫、生產力與代理型任務基準測試中有突出表現,是目前已知規模最大的開源權重模型。",
+        "reason": "這代表開源陣營首度端出可與頂尖封閉模型一較高下的3兆參數等級模型,對關注開源與商用AI路線之爭、以及自建自控AI基礎設施可能性的讀者是重要指標。"
+      },
+      {
+        "title": "xAI推出Grok的Google Workspace免費外掛,直接嵌入Sheets、Slides、Docs",
+        "url": "https://x.ai/news/introducing-google-workspace-addon",
+        "summary": "xAI於7月24日推出Grok的Google Workspace免費外掛,讓使用者能直接在Sheets、Slides與Docs介面旁叫出Grok協助工作。在Sheets中Grok能根據試算表內容回答問題並標註引用的儲存格、自動撰寫公式與圖表;在Slides中能將大綱轉換成風格一致的可編輯簡報;在Docs中能把雜亂筆記整理成有標題與清單的正式文件,並可透過連接器讀取Gmail與雲端硬碟中的資料輔助寫作。這項外掛同時也支援Microsoft 365的Word、Excel、PowerPoint與Outlook。",
+        "reason": "顯示xAI正積極把Grok從單純聊天機器人轉型為深度嵌入日常辦公文件工作流程的生產力助手,對已經在使用Google或Microsoft辦公軟體、想嘗試AI輔助文書工作的讀者相當實用好上手。"
+      }
+    ]
+  },
+  {
     "date": "2026-07-25",
     "articles": [
       {
