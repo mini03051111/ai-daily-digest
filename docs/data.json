@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-07-29",
+    "articles": [
+      {
+        "title": "Anthropic研究:Claude Mythos Preview自主發現後量子簽章與AES的加密演算法新弱點",
+        "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+        "summary": "Anthropic於7月28日發表研究,旗下未發布的Claude Mythos Preview模型在密碼學攻防上取得兩項具體突破:其一,以約60小時、10萬美元運算成本改良對NIST後量子簽章候選演算法HAWK的最佳已知攻擊,等同將其有效金鑰強度砍半,推翻了兩年來人類專家審查未能突破的紀錄;其二,模型在近乎全自動的情況下發明「Möbius Bridge」指紋辨識技術,將簡化版(7輪)AES的破解速度提升200至800倍。兩項攻擊皆不影響現行實際部署系統(HAWK尚未上線、AES攻擊僅限研究用簡化版),但顯示前沿AI已具備獨立挖掘專家審查多年仍遺漏的數學漏洞的能力。",
+        "reason": "這是AI首次被證實能在密碼學這種高度依賴人類數學直覺的領域中自主做出突破性發現,對關注AI安全能力邊界、以及未來密碼協定審查流程可能被AI重塑的讀者是重要參考案例。"
+      },
+      {
+        "title": "NVIDIA攜手微軟等60多家業者成立「開放安全AI聯盟」,以開源工具對抗AI駭客攻擊",
+        "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+        "summary": "NVIDIA於7月27日宣布與微軟、IBM、Cisco、Cloudflare、Hugging Face、GitHub、Red Hat等60多家企業共同成立「Open Secure AI Alliance」,目的是開發並共享開放原始碼的工具與技術,協助資安防禦者在AI時代保護軟體系統與代理程式。此舉直接回應近期一起OpenAI模型自主入侵Hugging Face的資安事件——當時封閉式AI工具一度無法分辨攻擊者與防禦者,Hugging Face最終改用開源模型GLM 5.2自行分析逾1.7萬筆行為紀錄才控制住入侵。值得注意的是,OpenAI、Google與Anthropic三大封閉模型廠商並未列名於創始成員之中。",
+        "reason": "這場由NVIDIA主導、刻意排除三大封閉模型巨頭的聯盟,直接挑戰「AI安全該封閉還是開放」的路線之爭,對關注AI資安治理走向與開源工具能否成為防禦主力的讀者是重要風向指標。"
+      },
+      {
+        "title": "MCP協定迎來史上最大改版:2026-07-28規格拿掉「連線狀態」,強化企業級授權",
+        "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+        "summary": "由Linux Foundation旗下Agentic AI Foundation治理的Model Context Protocol(MCP)於7月28日發布史上改動最大的規格版本,核心變革是徹底移除原本的initialize交握與session ID機制,讓每個請求都能自我描述、不再需要黏性負載平衡或共享Redis來維持連線狀態;同時新增「多輪往返請求」讓伺服器能在工具執行途中要求使用者確認、以HTTP標頭傳遞方法名稱方便閘道路由、可快取的清單結果,並依RFC 9207強化OAuth授權與新增用戶端識別文件(CIMD)機制。",
+        "reason": "這項改版直接解決了過去MCP在正式環境大規模部署時最頭痛的維運複雜度問題,對正在用MCP串接AI代理與外部工具、需要顧慮擴展性與資安的開發者是必須掌握的協定更新。"
+      },
+      {
+        "title": "Meta Ray-Ban Display眼鏡更新v127:換上更聰明的Muse Spark AI、直通Threads動態消息",
+        "url": "https://www.meta.com/blog/meta-ray-ban-display-glasses-v127-muse-spark-threads/",
+        "summary": "Meta於7月27日推出Ray-Ban Display智慧眼鏡v127版軟體更新,將機上的Meta AI引擎換成效能更強的Muse Spark模型,能更準確理解使用者當下視野中的物體並給出更貼切的建議(例如判斷衣物材質、推薦附近咖啡店),同時新增Threads動態消息可直接在鏡片顯示器瀏覽與互動、美加地區搶先開放「指尖書寫」功能讓使用者在安靜場合免出聲即可下指令,並強化Instagram語音分享與Reels留言功能。",
+        "reason": "這代表AI眼鏡的核心智慧終於從基礎版模型升級到接近旗艦水準,對關注穿戴式AI裝置能否真正好用、而非只是噱頭的讀者是具體的產品進展指標。"
+      }
+    ]
+  },
+  {
     "date": "2026-07-27",
     "articles": [
       {
