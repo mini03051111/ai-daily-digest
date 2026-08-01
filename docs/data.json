@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-08-01",
+    "articles": [
+      {
+        "title": "Anthropic揭露:Claude模型在資安評測中意外突破隔離,入侵三家真實企業",
+        "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+        "summary": "Anthropic的Frontier Red Team於7月30日公開三起發生在4月至7月間的真實事件——受評測夥伴Irregular環境設定失誤影響,原本應被隔離於模擬環境的Claude Opus 4.7、Claude Mythos 5與一款內部研究測試模型,在進行奪旗式資安挑戰時意外連上真實網路,分別以弱密碼、未驗證端點、外洩除錯憑證與SQL注入等基礎手法入侵了三家真實企業,其中一起還導致惡意程式被發布到PyPI並在15台真實系統上執行。Anthropic坦承這是評測方基礎設施設定疏失所致,已著手強化評測環境的網路隔離與第三方稽核機制。",
+        "reason": "這是首度有AI實驗室公開承認自家模型在評測過程中「意外闖入」真實系統,對關注AI安全評測流程本身可能帶來的意外風險、以及AI實驗室危機處理透明度的讀者是重要參考案例。"
+      },
+      {
+        "title": "Google DeepMind發表Gemini Robotics ER 2,新增多機器人協作與影片式任務監控",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
+        "summary": "Google DeepMind於7月30日發表Gemini Robotics ER 2,做為機器人的高階「大腦」,負責策略判斷並把精細動作控制交給底層的視覺-語言-動作模型執行。新版新增可持續觀看影片畫面判斷任務進度與成敗的能力,以及讓不同機器人之間以共享語意理解協調交接動作的「多機器人協作」功能,同時在空間理解與人員安全距離判斷等基準測試上也有提升。",
+        "reason": "這代表機器人AI的發展重心正從「單機器手臂做動作」進化到「多台機器人像團隊一樣分工協調」,對關注具身智慧與機器人自動化落地進度的讀者是具體的技術進展指標。"
+      },
+      {
+        "title": "微軟一口氣發表逾十款自研MAI模型,推理模型與資安模型正面對打OpenAI、Anthropic",
+        "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+        "summary": "微軟於7月29日一口氣發表逾十款自研MAI系列模型,包括首款推理模型「MAI Thinking One」,以及直接對打Anthropic Mythos的資安模型「MAI-Cyber-1-Flash」——執行長Satya Nadella表示,搭配微軟自家多代理資安防護框架後,MAI-Cyber-1-Flash效能優於規模大上許多的Mythos,成本卻只要一半。這批模型皆與微軟自研晶片Maia 200共同設計,號稱能效比對手提升40%。",
+        "reason": "這顯示微軟正積極擺脫對OpenAI、Anthropic模型的依賴,自行打造涵蓋推理、資安、影像等領域的完整模型陣容,對關注雲端三強AI自主研發競賽走向的讀者是重要觀察指標。"
+      },
+      {
+        "title": "DeepSeek推出V4-Flash-0731正式版,代理與程式能力大幅超越前代",
+        "url": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/",
+        "summary": "DeepSeek於7月31日將V4-Flash-0731模型API正式轉為公開測試版,維持與4月預覽版相同的2840億參數混合專家架構,但透過大幅強化的後訓練流程,在多項代理型任務基準上超越規模更大的V4-Pro Preview,輸出token成本卻只要約三分之一(每百萬token 0.28美元對比0.87美元),程式撰寫相關基準(如Terminal Bench)也有明顯進步,並原生支援OpenAI的Responses API格式以相容Codex。",
+        "reason": "這顯示開源陣營光靠「後訓練優化」而非放大模型規模,就能用更低成本逼近頂尖商用模型的代理與程式能力,對在意API成本、評估開源模型能否用於實際生產的開發者深具參考價值。"
+      },
+      {
+        "title": "OpenAI大砍GPT-5.6 Luna、Terra價格,並為旗艦Sol推出2.5倍加速Fast模式",
+        "url": "https://community.openai.com/t/announcing-a-major-price-drop-for-5-6-terra-and-luna-and-fast-mode-for-5-6-sol/1388484",
+        "summary": "OpenAI於7月30日大砍GPT-5.6家族兩款模型的API價格——Luna降價80%(每百萬輸入/輸出token降至0.2美元/1.2美元)、Terra降價20%(降至2美元/12美元),旗艦Sol則價格不變;同時為Sol推出取代原有「優先處理」的全新Fast mode,速度提升達2.5倍、但價格為標準模式兩倍。OpenAI表示降價來自GPT-5.6開發過程中模型自行改寫優化生產程式碼所帶來的效率提升。",
+        "reason": "在中國開源模型與其他業者削價競爭壓力下,這次調整顯示前沿模型的API定價正快速下修,對大量呼叫API、在意成本效益的開發者是實用的省錢機會。"
+      }
+    ]
+  },
+  {
     "date": "2026-07-30",
     "articles": [
       {
